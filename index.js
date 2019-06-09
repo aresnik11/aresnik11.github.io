@@ -4,7 +4,7 @@
 
 function main() {
 		$(".menu").click(function() {
-			$(this).children("#tab").toggle();
+			$(this).children(".menu div").toggle();
 		});
 	}
 	

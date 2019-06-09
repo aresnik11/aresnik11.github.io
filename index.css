@@ -13,17 +13,17 @@ body {
 }
 
 div {
-	border-radius:5px;
+	border-radius:5px; /* rounds edges */
 	z-index:1;
 	background-color:#FFF;
 	opacity:0.7;
 }
 
 .header {
-	width:80%;
-	margin-top:50px;
 	padding:20px;
+	margin-top:50px;
 	margin-left:8%;
+	margin-right:8%;
 	text-align:center;
 }
 
@@ -36,14 +36,14 @@ a {
 }
 
 .menu {
-	width:71%;
 	display:block;
-	margin-left:12%;
 	margin-top:20px;
+	margin-left:12%;
+	margin-right:12%;
 	padding:20px;
 }
 
-#tab {
+.menu div { /* all divs within the menu class */
 	display:none; /* this is needed to have tabs closed by default */
 	margin-left:5%;
 	margin-right:5%;
