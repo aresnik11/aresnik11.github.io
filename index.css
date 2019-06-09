@@ -1,5 +1,4 @@
-/*@charset "UTF-8";*/
-/* CSS Document */
+@charset "UTF-8";
 
 /*
 background image from:
@@ -8,6 +7,9 @@ http://tastingmysweetcreations.blogspot.com/2012/04/background-changes.html
 
 body {
 	background-image: url('chevron-gray-turquoise2.png');
+	font-family:Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:16px;
 }
 
 div {
@@ -15,48 +17,22 @@ div {
 	z-index:1;
 	background-color:#FFF;
 	opacity:0.7;
-	filter:alpha(opacity=70);	/* opacity IE8 and earlier */	
 }
 
-#header {
+.header {
 	width:80%;
 	margin-top:50px;
 	padding:20px;
 	margin-left:8%;
-
-}
-
-#name {
-	font-family:helvetica, Arial, sans-serif;
-	color:#000;	
-	font-size:24px;
 	text-align:center;
 }
 
+#hover:hover, h3:hover, h1:hover, a:hover {
+	color:#0CC; /* changes text color on hover of element */
+}
+
 a {
-	color:#000;	
-}
-
-h3 {
-	font-family:helvetica, Arial, sans-serif;
-	color:#000;	
-	font-size:18px;
-}
-
-h3:hover {
-	color:#0CC;	
-}
-
-h2 {
-	font-family:helvetica, Arial, sans-serif;
-	color:#000;	
-	font-size:16px;
-	padding-left:0px;
-	font-weight:normal;
-}
-
-#hover:hover {
-	color:#0CC;
+	color:#000;
 }
 
 .menu {
@@ -68,21 +44,11 @@ h2 {
 }
 
 #tab {
-	display:none;	
+	display:none; /* this is needed to have tabs closed by default */
 	margin-left:5%;
 	margin-right:5%;
 }
 
-p {
-	font-family:helvetica, Arial, sans-serif;
-	color:#000;
-	font-size:16px;	
-}
-
 #right {
 	float:right;	
-}
-
-#space {
-	padding-left:20%;	
 }
