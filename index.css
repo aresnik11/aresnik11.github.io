@@ -22,8 +22,8 @@ div, header {
 header {
 	padding:20px;
 	margin-top:50px;
-	margin-left:8%;
-	margin-right:8%;
+	margin-left:10%;
+	margin-right:10%;
 	text-align:center;
 }
 
@@ -36,10 +36,9 @@ a {
 }
 
 .menu {
-	display:block;
 	margin-top:20px;
-	margin-left:12%;
-	margin-right:12%;
+	margin-left:15%;
+	margin-right:15%;
 	padding:20px;
 }
 

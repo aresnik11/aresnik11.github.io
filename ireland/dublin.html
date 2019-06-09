@@ -6,34 +6,24 @@
     <link rel="stylesheet" type="text/css" href="ireland.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript" src="ireland.js"/></script>
-    <script type="text/javascript" src="js/lib/jquery-1.11.1.min.js" ></script>
-    <script> 
-        $(function(){
-            $("#header").load("header.html"); 
-            $("#footer").load("footer.html"); 
-        });
-    </script>
 </head>
 
 <body>
-    
-    <table width="100%" border="0">
-        <tr>
-            <td colspan="3" align="center">
-                <img src="images/dublin.jpg" alt="Dublin"/>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="3" valign="top" align="center">
-                <div id="header"></div>
-                
-            </td>
-        </tr>
-        <tr>
-            <td><br></td>
-        </tr>
-        <tr>
-            <td width="5%">&nbsp;</td>
+    <header>
+        <img src="images/ireland.jpg" alt="Ireland"/>
+    </header>
+
+    <nav>
+        <a href="ireland.html"><img src="images/home shamrock.jpg" onMouseOver="MouseRollover(this,'images/black home shamrock.jpg')" onMouseOut="MouseRollover(this,'images/home shamrock.jpg')" alt="Home" id="test"/></a>
+        <a href="dublin.html"><img src="images/dublin shamrock.jpg" onMouseOver="MouseRollover(this,'images/black dublin shamrock.jpg')" onMouseOut="MouseRollover(this,'images/dublin shamrock.jpg')" alt="Dublin" id="test"/></a>
+        <a href="galway.html"><img src="images/galway shamrock.jpg" onMouseOver="MouseRollover(this,'images/black galway shamrock.jpg')" onMouseOut="MouseRollover(this,'images/galway shamrock.jpg')" alt="Galway" id="test"/></a>
+        <a href="inishmore.html"><img src="images/inishmore shamrock.jpg" onMouseOver="MouseRollover(this,'images/black inishmore shamrock.jpg')" onMouseOut="MouseRollover(this,'images/inishmore shamrock.jpg')" alt="Inishmore" id="test"/></a>
+        <a href="meath.html"><img src="images/meath shamrock.jpg" onMouseOver="MouseRollover(this,'images/black meath shamrock.jpg')" onMouseOut="MouseRollover(this,'images/meath shamrock.jpg')" alt="Meath" id="test"/></a>
+        <a href="northernireland.html"><img src="images/northern ireland shamrock.jpg" onMouseOver="MouseRollover(this,'images/black northern ireland shamrock.jpg')" onMouseOut="MouseRollover(this,'images/northern ireland shamrock.jpg')" alt="Northern Ireland" id="test"/></a>
+    </nav>
+
+    <table>
+        
             <td align="left" class="black" bgcolor="#FFFF99">
                 <img src="images/guinness.JPG" class="right" id="horiz" alt="Guinness Storehouse"/>
                 <h2 align="center">The Guinness Storehouse</h2>
@@ -139,13 +129,9 @@
             </td>
             <td width="5%">&nbsp;</td>
     	</tr>
-        <tr>
-            <td colspan="3" align="center">
-                <br /><br />
-                <a href="mailto:aresnik11@gmail.com"><img src="images/contact shamrock.jpg" onMouseOver="MouseRollover(this,'images/black contact shamrock.jpg')" onMouseOut="MouseRollover(this,'images/contact shamrock.jpg')" alt="Contact Me"/></a>
-                <br /><br />
-            </td>
-        </tr> 
     </table>
+    <footer>
+        <a href="mailto:aresnik11@gmail.com"><img src="images/contact shamrock.jpg" onMouseOver="MouseRollover(this,'images/black contact shamrock.jpg')" onMouseOut="MouseRollover(this,'images/contact shamrock.jpg')" alt="Contact Me"/></a>
+    </footer>
 </body>
 </html>
