@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body {
+body { /* universal */
 	color:#000;
 	font-size:16px;
 	font-weight:bold;
@@ -10,20 +10,20 @@ body {
 }
 
 header img {
-	display:block;
+	display:block; /* centers the image within the header on the page, also scales if you resize the window */
 	width:50%;
 	margin-left:auto;
 	margin-right:auto;
 }
 
 nav {
-	text-align:center;
+	text-align:center; /* centers the nav that contains each shamrock */
 	margin-bottom:2%;
 }
 
 nav img {
-	display:inline-block;
-	width:10%;
+	display:inline-block; /* makes shamrocks appear next to each other */
+	width:10%; /* adjusts width of each shamrock, also scales if you resize the window */
 }
 
 table {
@@ -32,7 +32,7 @@ table {
 }
 
 table img {
-	width:100%;
+	width:100%; /* makes each image in the table full width */
 }
 
 .yellow {
@@ -49,10 +49,10 @@ table img {
 
 .yellow, .blue, .green {
 	padding:2%;
-	overflow:auto;
+	overflow:auto; /* makes each colored div big enough to hold the whole image, so image does not overflow into next div */
 }
 
-td.yellow, td.blue, td.green, h2 {
+td.yellow, td.blue, td.green, h2 { /* yellow, blue, and green td elements and h2 */
 	text-align:center;
 }
 
@@ -89,13 +89,11 @@ td.yellow, td.blue, td.green, h2 {
 }
 
 footer {
-	text-align:center;
+	text-align:center; /* centers the footer that contains the contact us shamrock */
 }
 
 footer img {
-	display:inline-block;
-	width:10%;
-	margin-left:auto;
-	margin-right:auto;
+	display:inline-block; /* allows shamrock to be centered, did not use display:block because then whole width gets wrapped in the link; */
+	width:10%; /* adjusts width of shamrock, also scales if you resize the window */
 	margin-top:2%;
 }

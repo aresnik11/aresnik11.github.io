@@ -2,7 +2,7 @@
 
 /* background image from: http://tastingmysweetcreations.blogspot.com/2012/04/background-changes.html */
 
-body {
+body { /* universal */
 	background-image: url('chevron-gray-turquoise2.png');
 	font-family:Helvetica, Arial, sans-serif;
 	color:#000;
@@ -11,7 +11,7 @@ body {
 	margin-bottom:50px;
 }
 
-div, header {
+div, header { /* all divs and header */
 	border-radius:5px; /* rounds edges */
 	z-index:1;
 	background-color:#FFF;
