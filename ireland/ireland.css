@@ -5,6 +5,8 @@ body {
 	font-size:16px;
 	font-weight:bold;
 	font-family:Verdana, Geneva, sans-serif;
+	margin-top:2%;
+	margin-bottom:2%;
 }
 
 header img {
@@ -29,7 +31,7 @@ table {
 	margin-right:2%;
 }
 
-.home img {
+table img {
 	width:100%;
 }
 
@@ -45,33 +47,28 @@ table {
 	background-color:#98e6a0;
 }
 
-table .yellow, table .blue, table .green, h2 {
-	text-align:center;
-}
-
 .yellow, .blue, .green {
 	padding:2%;
 	overflow:auto;
 }
 
-footer img {
-	display:block;
-	width:10%;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:2%;
+td.yellow, td.blue, td.green, h2 {
+	text-align:center;
 }
 
 .right img {
 	float:right;
 	padding-left:10%;
-
 }
 
 .left img {
 	float:left;
 	padding-right:10%;
+}
 
+.right img, .left img {
+	padding-top:2%;
+	padding-bottom:2%;
 }
 
 .right, .left {
@@ -83,8 +80,22 @@ footer img {
 
 #horiz {
 	width:35%;
+	display:inline-block;
 }
 
 #vert {
 	width:25%;
+	display:inline-block;
+}
+
+footer {
+	text-align:center;
+}
+
+footer img {
+	display:inline-block;
+	width:10%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2%;
 }
