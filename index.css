@@ -25,7 +25,7 @@ header {
 	text-align:center;
 }
 
-#hover:hover, h3:hover, h1:hover, a:hover, .hover:hover {
+.hover:hover, h3:hover, h1:hover, a:hover {
 	color:#0CC; /* changes text color on hover of element */
 }
 
@@ -46,6 +46,6 @@ a {
 	margin-right:5%;
 }
 
-#right, .right {
+.right {
 	float:right;	
 }

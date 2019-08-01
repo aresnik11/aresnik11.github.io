@@ -35,55 +35,52 @@ table img {
 	width:100%; /* makes each image in the table full width */
 }
 
-.yellow {
+div:nth-child(3n), .yellow {
 	background-color:#FFFF99;
 }
 
-.blue {
+div:nth-child(3n+1), .blue {
 	background-color:#99CCFF;
 }
 
-.green {
+div:nth-child(3n+2), .green {
 	background-color:#98e6a0;
 }
 
-.yellow, .blue, .green {
-	padding:2%;
-	overflow:auto; /* makes each colored div big enough to hold the whole image, so image does not overflow into next div */
-}
-
-td.yellow, td.blue, td.green, h2 { /* yellow, blue, and green td elements and h2 */
+td, h2 { /* yellow, blue, and green td elements and h2 */
 	text-align:center;
 }
 
-.right img {
+div:nth-child(odd) img {
 	float:right;
 	padding-left:10%;
 }
 
-.left img {
+div:nth-child(even) img {
 	float:left;
 	padding-right:10%;
 }
 
-.right img, .left img {
+div img {
 	padding-top:2%;
 	padding-bottom:2%;
 }
 
-.right, .left {
+div {
 	padding-left:10%;
 	padding-right:10%;
 	margin-left:2%;
 	margin-right:2%;
+	padding: 2%;
+	overflow: auto;
 }
 
-#horiz {
+.horiz {
 	width:35%;
 	display:inline-block;
 }
 
-#vert {
+.vert {
 	width:25%;
 	display:inline-block;
 }
